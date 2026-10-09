@@ -114,20 +114,21 @@ h6 {
 .cv {
     max-width: 850px;
     margin-inline: auto;
+    padding: 30px;
+}
+
+.cv h1,
+.cv h2 {
+    text-align: center;
 }
 
 .cv section {
     margin-block: 2em;
 }
 
-.cv h2 {
-    border-bottom: 2px solid var(--color-accent);
-    padding-bottom: 0.25em;
-    margin-bottom: 1em;
-}
-
 .cv article {
-    margin-block: 1.25em;
+    margin-block: 1.5em;
+    text-align: left;
 }
 
 .cv article h3 {
