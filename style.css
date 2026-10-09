@@ -87,7 +87,6 @@ button {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows : subgrid;
     gap: 1em;
 }
 .projects article {
