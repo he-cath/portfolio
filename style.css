@@ -1,6 +1,8 @@
+
 html {
     --color-accent: oklch(65% 50% 0);
     accent-color: var(--color-accent);
+    color-scheme: light dark;
 }
 
 body {
@@ -22,10 +24,14 @@ img {
     height: auto;
 }
 
+/* Navigation */
+
 nav {
+    --border-color: oklch(50% 10% 200 / 40%);
     display: flex;
+    margin-top: 3.5rem;
     margin-bottom: 1em;
-    border-bottom: 1px solid oklch(80% 3% 200);
+    border-bottom: 1px solid var(--border-color);
     order: -1;
 }
 
@@ -39,15 +45,21 @@ nav a {
 
 nav a.current {
     font-weight: bold;
-    border-bottom: 0.4em solid oklch(80% 3% 200);
+    border-bottom: 0.4em solid var(--border-color);
     padding-bottom: 0.1em;
 }
 
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
     padding-bottom: 0.1em;
-    background-color: oklch(from var(--color-accent) 95% 5% h);
+    background-color: color-mix(
+        in oklch,
+        var(--color-accent),
+        canvas 85%
+    );
 }
+
+/* Forms */
 
 form {
     display: grid;
@@ -84,11 +96,15 @@ textarea {
 button {
     padding: 0.5em 1em;
 }
+
+/* Projects */
+
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
 }
+
 .projects article {
     grid-row: span 3;
 }
@@ -96,6 +112,8 @@ button {
 .projects h2 {
     margin: 0;
 }
+
+/* Headings */
 
 h1 {
     font-size: 400%;
@@ -110,6 +128,8 @@ h6 {
     line-height: 1.1;
     text-wrap: balance;
 }
+
+/* CV */
 
 .cv {
     max-width: 850px;
@@ -136,7 +156,7 @@ h6 {
 }
 
 .cv time {
-    color: #666;
+    color: color-mix(in oklch, canvastext 65%, canvas);
     font-size: 0.9em;
 }
 
@@ -146,4 +166,19 @@ h6 {
 
 .cv li {
     margin-block: 0.3em;
+}
+
+.color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.color-scheme select {
+    font: inherit;
+    padding: 0.3em;
 }
