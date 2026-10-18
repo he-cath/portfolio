@@ -3,10 +3,15 @@ html {
     --color-accent: oklch(65% 50% 0);
     accent-color: var(--color-accent);
     color-scheme: light dark;
+
+    background-color: canvas;
+    color: canvastext;
 }
 
 body {
     font: 100%/1.5 system-ui;
+    background-color: canvas;
+    color: canvastext;
 }
 
 main {
