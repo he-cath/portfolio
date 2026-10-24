@@ -1,0 +1,75 @@
+
+[
+  {
+    "title": "Project 1",
+    "year": 2026,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 1."
+  },
+  {
+    "title": "Project 2",
+    "year": 2026,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 2."
+  },
+  {
+    "title": "Project 3",
+    "year": 2026,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 3."
+  },
+  {
+    "title": "Project 4",
+    "year": 2026,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 4."
+  },
+  {
+    "title": "Project 5",
+    "year": 2025,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 5."
+  },
+  {
+    "title": "Project 6",
+    "year": 2025,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 6."
+  },
+  {
+    "title": "Project 7",
+    "year": 2025,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 7."
+  },
+  {
+    "title": "Project 8",
+    "year": 2025,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 8."
+  },
+  {
+    "title": "Project 9",
+    "year": 2024,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 9."
+  },
+  {
+    "title": "Project 10",
+    "year": 2024,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 10."
+  },
+  {
+    "title": "Project 11",
+    "year": 2024,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 11."
+  },
+  {
+    "title": "Project 12",
+    "year": 2023,
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Description for Project 12."
+  }
+]
